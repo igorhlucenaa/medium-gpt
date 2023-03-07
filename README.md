@@ -10,7 +10,7 @@ Antes de começar, você precisa ter instalado em sua máquina o Node.js e o Ang
 
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/meu-projeto.git
+git clone https://github.com/igorhlucenaa/medium-gpt.git
 
 Instale as dependências do projeto:
 
