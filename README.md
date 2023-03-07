@@ -1,27 +1,41 @@
-# GptMedium
+# Meu Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+Este é um projeto Angular para fazer perguntas usando a API do OpenAI.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de começar, você precisa ter instalado em sua máquina o Node.js e o Angular CLI.
 
-## Code scaffolding
+## Como executar o projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone este repositório:
 
-## Build
+git clone https://github.com/seu-usuario/meu-projeto.git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instale as dependências do projeto:
 
-## Running unit tests
+cd meu-projeto
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Inicie o servidor Angular:
 
-## Running end-to-end tests
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Acesse a aplicação em http://localhost:4200.
 
-## Further help
+## Como usar a aplicação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Na página inicial, você encontrará um campo para fazer perguntas usando a API do OpenAI. Digite sua pergunta e clique em "Enviar". A resposta será exibida abaixo do campo.
+
+## Como contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
+3. Faça as alterações desejadas.
+4. Faça um commit das alterações (`git commit -m 'Adicionando minha feature'`).
+5. Faça um push para a branch (`git push origin minha-feature`).
+6. Abra um Pull Request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
